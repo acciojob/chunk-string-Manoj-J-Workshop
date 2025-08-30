@@ -1,5 +1,6 @@
 function stringChop(str, size) {
   // your code here
+	if(!str) return [];
 	let chunks = [];
   // let x = 0;
 
@@ -11,6 +12,7 @@ function stringChop(str, size) {
 
   return chunks;
 }
+
 
 
 // Do not change the code below
